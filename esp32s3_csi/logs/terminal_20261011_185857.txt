@@ -1,0 +1,25 @@
+﻿**********************
+Windows PowerShell 脚本开始
+开始时间: 20261011185857
+用户名: 晚风吹过的痕迹\16265
+RunAs 用户: 晚风吹过的痕迹\16265
+配置名称: 
+计算机: 晚风吹过的痕迹 (Microsoft Windows NT 10.0.26200.0)
+主机应用程序: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass
+进程 ID: 169496
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+已启动脚本，输出文件为 .\logs\terminal_20261011_185857.txt
+PS D:\ESP32\program\esp32s3_csi> idf.py build
+
+PS D:\ESP32\program\esp32s3_csi> idf.py -p COM14 flash monitor
+
+PS D:\ESP32\program\esp32s3_csi> python capture.py --port COM14 --mode lltf52 --seconds 60 --gap 10 --label empty
+

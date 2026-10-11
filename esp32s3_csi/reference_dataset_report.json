@@ -1,0 +1,173 @@
+{
+  "archive": "csi_data.zip",
+  "files": [
+    {
+      "file": "csi_data/chl/2024-07-09_19-54-38-110_104_1.csv",
+      "rows": 29722,
+      "bad_rows": 0,
+      "lengths": {
+        "104": 29722
+      },
+      "labels": {
+        "chl": 29722
+      },
+      "channels": {
+        "11/2": 29722
+      },
+      "cwb": {
+        "1": 29722
+      },
+      "first_word_invalid": {
+        "0": 29722
+      },
+      "first_timestamp": "2024-07-09 19:54:38.110",
+      "last_timestamp": "2024-07-09 19:59:38.098",
+      "duration_seconds": 299.988,
+      "mean_rows_per_second": 99.07729642519034
+    },
+    {
+      "file": "csi_data/ctw/2024-07-09_21-05-11-043_104_1.csv",
+      "rows": 28996,
+      "bad_rows": 0,
+      "lengths": {
+        "104": 28996
+      },
+      "labels": {
+        "ctw": 28996
+      },
+      "channels": {
+        "11/2": 28996
+      },
+      "cwb": {
+        "1": 28996
+      },
+      "first_word_invalid": {
+        "0": 28996
+      },
+      "first_timestamp": "2024-07-09 21:05:11.043",
+      "last_timestamp": "2024-07-09 21:10:11.030",
+      "duration_seconds": 299.987,
+      "mean_rows_per_second": 96.65752182594578
+    },
+    {
+      "file": "csi_data/czj/2024-07-09_20-17-59-241_104_1.csv",
+      "rows": 35459,
+      "bad_rows": 0,
+      "lengths": {
+        "104": 35459
+      },
+      "labels": {
+        "czj": 35459
+      },
+      "channels": {
+        "11/2": 35459
+      },
+      "cwb": {
+        "1": 35459
+      },
+      "first_word_invalid": {
+        "0": 35459
+      },
+      "first_timestamp": "2024-07-09 20:17:59.240",
+      "last_timestamp": "2024-07-09 20:23:57.588",
+      "duration_seconds": 358.348,
+      "mean_rows_per_second": 98.95129873754004
+    },
+    {
+      "file": "csi_data/jyh/2024-07-09_20-36-43-973_104_1.csv",
+      "rows": 29349,
+      "bad_rows": 0,
+      "lengths": {
+        "104": 29349
+      },
+      "labels": {
+        "jyh": 29349
+      },
+      "channels": {
+        "11/2": 29349
+      },
+      "cwb": {
+        "1": 29349
+      },
+      "first_word_invalid": {
+        "0": 29349
+      },
+      "first_timestamp": "2024-07-09 20:36:43.973",
+      "last_timestamp": "2024-07-09 20:41:43.962",
+      "duration_seconds": 299.989,
+      "mean_rows_per_second": 97.83358723153184
+    },
+    {
+      "file": "csi_data/lxh/2024-07-09_20-47-44-950_104_1.csv",
+      "rows": 28738,
+      "bad_rows": 0,
+      "lengths": {
+        "104": 28738
+      },
+      "labels": {
+        "lxh": 28738
+      },
+      "channels": {
+        "11/2": 28738
+      },
+      "cwb": {
+        "1": 28738
+      },
+      "first_word_invalid": {
+        "0": 28738
+      },
+      "first_timestamp": "2024-07-09 20:47:44.950",
+      "last_timestamp": "2024-07-09 20:52:44.927",
+      "duration_seconds": 299.977,
+      "mean_rows_per_second": 95.800678051984
+    },
+    {
+      "file": "csi_data/zyn/2024-07-09_20-06-26-056_104_1.csv",
+      "rows": 29759,
+      "bad_rows": 0,
+      "lengths": {
+        "104": 29759
+      },
+      "labels": {
+        "wyt": 29759
+      },
+      "channels": {
+        "11/2": 29759
+      },
+      "cwb": {
+        "1": 29759
+      },
+      "first_word_invalid": {
+        "0": 29759
+      },
+      "first_timestamp": "2024-07-09 20:06:26.056",
+      "last_timestamp": "2024-07-09 20:11:26.043",
+      "duration_seconds": 299.987,
+      "mean_rows_per_second": 99.20096537516625
+    },
+    {
+      "file": "csi_data/zzj/2024-07-09_20-56-27-377_104_1.csv",
+      "rows": 29717,
+      "bad_rows": 0,
+      "lengths": {
+        "104": 29717
+      },
+      "labels": {
+        "zzj": 29717
+      },
+      "channels": {
+        "11/2": 29717
+      },
+      "cwb": {
+        "1": 29717
+      },
+      "first_word_invalid": {
+        "0": 29717
+      },
+      "first_timestamp": "2024-07-09 20:56:27.375",
+      "last_timestamp": "2024-07-09 21:01:27.364",
+      "duration_seconds": 299.989,
+      "mean_rows_per_second": 99.06029887762553
+    }
+  ]
+}
