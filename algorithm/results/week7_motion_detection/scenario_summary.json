@@ -1,0 +1,29 @@
+{
+  "empty": {
+    "frames": 3568,
+    "windows": 213,
+    "rssi_median": -36.0,
+    "amplitude_mean_median": 13.304140090942383,
+    "temporal_std_median": 1.254711389541626,
+    "temporal_diff_median": 1.4163990020751953,
+    "relative_temporal_diff_median": 0.10602033188674012
+  },
+  "person_moving": {
+    "frames": 3588,
+    "windows": 214,
+    "rssi_median": -42.0,
+    "amplitude_mean_median": 13.967924118041992,
+    "temporal_std_median": 3.152769923210144,
+    "temporal_diff_median": 2.8882224559783936,
+    "relative_temporal_diff_median": 0.20799042938059698
+  },
+  "person_stationary": {
+    "frames": 3566,
+    "windows": 99,
+    "rssi_median": -44.0,
+    "amplitude_mean_median": 13.920149803161621,
+    "temporal_std_median": 1.3277138471603394,
+    "temporal_diff_median": 1.416495680809021,
+    "relative_temporal_diff_median": 0.10220540959639318
+  }
+}

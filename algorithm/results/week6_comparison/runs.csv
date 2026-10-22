@@ -1,0 +1,7 @@
+method,profile,seed,test_accuracy,macro_recall,prediction_counts,run_name
+balanced_sampling,cross_room,7,0.24962852897473997,0.1657596990002216,"{""standing"": 81, ""walking"": 281, ""get_down"": 174, ""sitting"": 33, ""get_up"": 0, ""lying"": 99, ""no_person"": 5}",cross_room_seed7_20261014_152857
+balanced_sampling,cross_room,42,0.4606240713224368,0.14847678201715467,"{""standing"": 13, ""walking"": 647, ""get_down"": 0, ""sitting"": 5, ""get_up"": 0, ""lying"": 8, ""no_person"": 0}",cross_room_seed42_20261014_160222
+balanced_sampling,cross_room,2026,0.4086181277860327,0.13916718202432488,"{""standing"": 1, ""walking"": 567, ""get_down"": 5, ""sitting"": 97, ""get_up"": 3, ""lying"": 0, ""no_person"": 0}",cross_room_seed2026_20261014_160319
+weighted_loss,cross_room_weighted,7,0.4606240713224368,0.1405895691609977,"{""standing"": 0, ""walking"": 668, ""get_down"": 0, ""sitting"": 0, ""get_up"": 0, ""lying"": 5, ""no_person"": 0}",cross_room_weighted_seed7_20261014_160619
+weighted_loss,cross_room_weighted,42,0.46656760772659733,0.14240362811791382,"{""standing"": 0, ""walking"": 671, ""get_down"": 0, ""sitting"": 0, ""get_up"": 0, ""lying"": 0, ""no_person"": 2}",cross_room_weighted_seed42_20261014_160706
+weighted_loss,cross_room_weighted,2026,0.18722139673105498,0.09534206304392641,"{""standing"": 24, ""walking"": 180, ""get_down"": 0, ""sitting"": 460, ""get_up"": 0, ""lying"": 9, ""no_person"": 0}",cross_room_weighted_seed2026_20261014_160755
