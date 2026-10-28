@@ -1,0 +1,252 @@
+{
+  "task": "person_moving versus nonmoving",
+  "model": "small 2-D CNN on CSI amplitude windows",
+  "input_mode": "centered",
+  "input_shape": [
+    1,
+    64,
+    52
+  ],
+  "split": "recording 2 test; the other recordings train",
+  "test_recording": 2,
+  "normalization": "per-CSI-position mean and std fitted on training recordings only",
+  "class_weighted_loss": true,
+  "class_weights": [
+    0.8454106280193237,
+    1.2237762237762237
+  ],
+  "seed": 42,
+  "epochs": 30,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "device": "cpu",
+  "parameter_count": 89122,
+  "elapsed_seconds": 39.89142562501365,
+  "window_counts": {
+    "all": 526,
+    "train": 350,
+    "test": 176
+  },
+  "train_class_counts": [
+    207,
+    143
+  ],
+  "train": {
+    "total": 350,
+    "tp": 143,
+    "tn": 207,
+    "fp": 0,
+    "fn": 0,
+    "accuracy": 1.0,
+    "moving_recall": 1.0,
+    "nonmoving_recall": 1.0,
+    "balanced_accuracy": 1.0
+  },
+  "test": {
+    "total": 176,
+    "tp": 71,
+    "tn": 105,
+    "fp": 0,
+    "fn": 0,
+    "accuracy": 1.0,
+    "moving_recall": 1.0,
+    "nonmoving_recall": 1.0,
+    "balanced_accuracy": 1.0
+  },
+  "diagnostics": {
+    "time_shuffled_test": {
+      "total": 176,
+      "tp": 71,
+      "tn": 105,
+      "fp": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "moving_recall": 1.0,
+      "nonmoving_recall": 1.0,
+      "balanced_accuracy": 1.0
+    },
+    "time_mean_repeated_test": {
+      "total": 176,
+      "tp": 0,
+      "tn": 105,
+      "fp": 0,
+      "fn": 71,
+      "accuracy": 0.5965909090909091,
+      "moving_recall": 0.0,
+      "nonmoving_recall": 1.0,
+      "balanced_accuracy": 0.5
+    }
+  },
+  "test_by_scenario": {
+    "empty": {
+      "windows": 71,
+      "actual_moving": 0,
+      "predicted_moving": 0,
+      "predicted_moving_rate": 0.0
+    },
+    "person_moving": {
+      "windows": 71,
+      "actual_moving": 71,
+      "predicted_moving": 71,
+      "predicted_moving_rate": 1.0
+    },
+    "person_stationary": {
+      "windows": 34,
+      "actual_moving": 0,
+      "predicted_moving": 0,
+      "predicted_moving_rate": 0.0
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.6485611970084054,
+      "train_accuracy": 0.4057142857142857
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.45274208307266234,
+      "train_accuracy": 0.7828571428571428
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.24586329664502826,
+      "train_accuracy": 0.9228571428571428
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.3362100752762386,
+      "train_accuracy": 0.8714285714285714
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.2508644309214183,
+      "train_accuracy": 0.9057142857142857
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.17978614347321648,
+      "train_accuracy": 0.9514285714285714
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.1349697971343994,
+      "train_accuracy": 0.9628571428571429
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.12016817908201899,
+      "train_accuracy": 0.9514285714285714
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.05137909205896514,
+      "train_accuracy": 0.9914285714285714
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.02770749361387321,
+      "train_accuracy": 0.9971428571428571
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.015750600365655763,
+      "train_accuracy": 0.9971428571428571
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.011328773759305476,
+      "train_accuracy": 0.9971428571428571
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.009342063846332686,
+      "train_accuracy": 1.0
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.003879865546311651,
+      "train_accuracy": 1.0
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.003956928015021341,
+      "train_accuracy": 1.0
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.003962784179353288,
+      "train_accuracy": 0.9971428571428571
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.008931598173387881,
+      "train_accuracy": 0.9942857142857143
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.021100578371967587,
+      "train_accuracy": 0.9942857142857143
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.0031582044324438485,
+      "train_accuracy": 1.0
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.0027370443075363125,
+      "train_accuracy": 1.0
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.0012772122115295912,
+      "train_accuracy": 1.0
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.0007637602460038449,
+      "train_accuracy": 1.0
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.0008481955312059394,
+      "train_accuracy": 1.0
+    },
+    {
+      "epoch": 24,
+      "train_loss": 0.0007817548072697329,
+      "train_accuracy": 1.0
+    },
+    {
+      "epoch": 25,
+      "train_loss": 0.0005650642816908657,
+      "train_accuracy": 1.0
+    },
+    {
+      "epoch": 26,
+      "train_loss": 0.00027275637760924707,
+      "train_accuracy": 1.0
+    },
+    {
+      "epoch": 27,
+      "train_loss": 0.0006163577210307787,
+      "train_accuracy": 1.0
+    },
+    {
+      "epoch": 28,
+      "train_loss": 0.0002886402891350112,
+      "train_accuracy": 1.0
+    },
+    {
+      "epoch": 29,
+      "train_loss": 0.00020646558933159603,
+      "train_accuracy": 1.0
+    },
+    {
+      "epoch": 30,
+      "train_loss": 0.00023340679717616045,
+      "train_accuracy": 1.0
+    }
+  ]
+}
