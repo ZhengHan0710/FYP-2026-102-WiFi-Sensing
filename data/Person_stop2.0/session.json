@@ -1,0 +1,170 @@
+{
+  "status": "complete",
+  "chip": "ESP32-S3",
+  "idf_expected": "5.4.x",
+  "schema": [
+    "type",
+    "seq",
+    "timestamp",
+    "taget_seq",
+    "taget",
+    "mac",
+    "rssi",
+    "rate",
+    "sig_mode",
+    "mcs",
+    "cwb",
+    "smoothing",
+    "not_sounding",
+    "aggregation",
+    "stbc",
+    "fec_coding",
+    "sgi",
+    "noise_floor",
+    "ampdu_cnt",
+    "channel_primary",
+    "channel_secondary",
+    "local_timestamp",
+    "ant",
+    "sig_len",
+    "rx_state",
+    "len",
+    "first_word_invalid",
+    "data"
+  ],
+  "settings": {
+    "port": "COM7",
+    "baud": 115200,
+    "mode": "lltf52",
+    "seconds": 60,
+    "segments": 3,
+    "gap": 10,
+    "warmup": 15,
+    "label": "standing_center",
+    "out": "data"
+  },
+  "timestamp_meaning": "PC serial receive time, UTC+08:00; not RF reception wall time",
+  "taget_seq_meaning": "segment number assigned by this recorder",
+  "taget_meaning": "experiment label supplied by --label",
+  "ltf": "LLTF only; no merge; no software filtering; automatic scaling",
+  "component_order": "imaginary, real",
+  "output_subcarriers": [
+    -26,
+    -25,
+    -24,
+    -23,
+    -22,
+    -21,
+    -20,
+    -19,
+    -18,
+    -17,
+    -16,
+    -15,
+    -14,
+    -13,
+    -12,
+    -11,
+    -10,
+    -9,
+    -8,
+    -7,
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "original_dataset_subcarrier_mapping": "unknown; equal length does not establish equivalence",
+  "invalid_policy": "raw: preserve flag; lltf52: reject frame if first_word_invalid=1",
+  "length_meaning": "raw: driver bytes; lltf52: selected output bytes (104)",
+  "segments": [
+    {
+      "file": "2026-11-04_19-49-57-874_104_1.csv",
+      "segment": 1,
+      "rows": 1201,
+      "rejected_by_mode": 0,
+      "malformed_lines": 0,
+      "seq_gaps_within_segment": 0,
+      "start_time": "2026-11-04T19:49:57.874392+08:00",
+      "elapsed_seconds": 60.03200000000652,
+      "lengths": {
+        "104": 1201
+      },
+      "channels": {
+        "1": 1201
+      },
+      "sig_modes": {
+        "1": 1201
+      },
+      "frames_per_second": 20.005996801703585
+    },
+    {
+      "file": "2026-11-04_19-51-07-928_104_2.csv",
+      "segment": 2,
+      "rows": 1182,
+      "rejected_by_mode": 0,
+      "malformed_lines": 0,
+      "seq_gaps_within_segment": 0,
+      "start_time": "2026-11-04T19:51:07.928715+08:00",
+      "elapsed_seconds": 60.030999999988126,
+      "lengths": {
+        "104": 1182
+      },
+      "channels": {
+        "1": 1182
+      },
+      "sig_modes": {
+        "1": 1182
+      },
+      "frames_per_second": 19.68982692276047
+    },
+    {
+      "file": "2026-11-04_19-52-17-975_104_3.csv",
+      "segment": 3,
+      "rows": 1208,
+      "rejected_by_mode": 0,
+      "malformed_lines": 0,
+      "seq_gaps_within_segment": 0,
+      "start_time": "2026-11-04T19:52:17.975705+08:00",
+      "elapsed_seconds": 60.030999999988126,
+      "lengths": {
+        "104": 1208
+      },
+      "channels": {
+        "1": 1208
+      },
+      "sig_modes": {
+        "1": 1208
+      },
+      "frames_per_second": 20.122936482821192
+    }
+  ]
+}
