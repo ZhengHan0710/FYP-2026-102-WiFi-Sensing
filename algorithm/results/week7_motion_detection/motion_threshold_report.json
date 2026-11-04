@@ -1,0 +1,29 @@
+{
+  "task": "person_moving versus nonmoving",
+  "feature": "relative_temporal_diff",
+  "rule": "feature > 0.11723495 means moving",
+  "split": "recordings 1 and 2 train; recording 3 test",
+  "threshold": 0.11723494692185873,
+  "train": {
+    "total": 359,
+    "tp": 134,
+    "tn": 186,
+    "fp": 30,
+    "fn": 9,
+    "accuracy": 0.8913649025069638,
+    "moving_recall": 0.9370629370629371,
+    "nonmoving_recall": 0.8611111111111112,
+    "balanced_accuracy": 0.8990870240870241
+  },
+  "test": {
+    "total": 167,
+    "tp": 68,
+    "tn": 60,
+    "fp": 36,
+    "fn": 3,
+    "accuracy": 0.7664670658682635,
+    "moving_recall": 0.9577464788732394,
+    "nonmoving_recall": 0.625,
+    "balanced_accuracy": 0.7913732394366197
+  }
+}

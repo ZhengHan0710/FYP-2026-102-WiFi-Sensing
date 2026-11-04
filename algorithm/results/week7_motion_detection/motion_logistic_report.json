@@ -1,0 +1,61 @@
+{
+  "task": "person_moving versus nonmoving",
+  "model": "two-feature logistic regression implemented with NumPy",
+  "features": [
+    "temporal_std",
+    "relative_temporal_diff"
+  ],
+  "split": "recordings 1 and 2 train; recording 3 test",
+  "feature_mean_train": [
+    1.8901141822172074,
+    0.1413407649326964
+  ],
+  "feature_std_train": [
+    0.8882926222998125,
+    0.05745536344357081
+  ],
+  "weights_scaled": [
+    4.1653948520138915,
+    2.774345306762664
+  ],
+  "bias_scaled": 2.076717219642815,
+  "train": {
+    "total": 359,
+    "tp": 121,
+    "tn": 200,
+    "fp": 16,
+    "fn": 22,
+    "accuracy": 0.8941504178272981,
+    "moving_recall": 0.8461538461538461,
+    "nonmoving_recall": 0.9259259259259259,
+    "balanced_accuracy": 0.886039886039886
+  },
+  "test": {
+    "total": 167,
+    "tp": 66,
+    "tn": 83,
+    "fp": 13,
+    "fn": 5,
+    "accuracy": 0.8922155688622755,
+    "moving_recall": 0.9295774647887324,
+    "nonmoving_recall": 0.8645833333333334,
+    "balanced_accuracy": 0.8970803990610329
+  },
+  "test_by_scenario": {
+    "empty": {
+      "windows": 70,
+      "predicted_moving": 13,
+      "predicted_moving_rate": 0.18571428571428572
+    },
+    "person_moving": {
+      "windows": 71,
+      "predicted_moving": 66,
+      "predicted_moving_rate": 0.9295774647887324
+    },
+    "person_stationary": {
+      "windows": 26,
+      "predicted_moving": 0,
+      "predicted_moving_rate": 0.0
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "balanced_sampling": {
+    "accuracy_mean": 0.37295690936106984,
+    "accuracy_std": 0.08975363167142361,
+    "macro_recall_mean": 0.15113455434723372,
+    "macro_recall_std": 0.01101781300431985
+  },
+  "weighted_loss": {
+    "accuracy_mean": 0.37147102526002973,
+    "accuracy_std": 0.1303067550463029,
+    "macro_recall_mean": 0.12611175344094597,
+    "macro_recall_std": 0.021770057231912533
+  }
+}
